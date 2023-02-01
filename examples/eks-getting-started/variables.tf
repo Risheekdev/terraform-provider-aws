@@ -1,8 +1,8 @@
 variable "aws_region" {
-  default = "us-west-2"
+  default = "ap-south-1"
 }
 
 variable "cluster-name" {
-  default = "terraform-eks-demo"
+  default = "terraform-eks-springboot"
   type    = string
 }
